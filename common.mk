@@ -92,7 +92,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.composer.hwc3-service.slsi \
-    gralloc.exynos9611 \
+    gralloc.universal9611 \
     libion
 
 PRODUCT_PACKAGES += \
@@ -343,6 +343,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/samsung \
+    hardware/samsung_slsi-linaro/exynos/gralloc/gralloc3 \
     hardware/samsung_slsi/libbt
 
 # Thermal
