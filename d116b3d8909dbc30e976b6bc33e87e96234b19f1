@@ -16,6 +16,24 @@
       "message": "wrong path.",
       "revId": "d116b3d8909dbc30e976b6bc33e87e96234b19f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49043c1b_ac728400",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 34676
+      },
+      "writtenOn": "2025-01-31T21:27:57Z",
+      "side": 1,
+      "message": "Sorry, forgot",
+      "parentUuid": "755674a9_cb697021",
+      "revId": "d116b3d8909dbc30e976b6bc33e87e96234b19f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
