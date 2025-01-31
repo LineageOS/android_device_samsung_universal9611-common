@@ -38,13 +38,13 @@ vendor/etc/mixer_usb_white.xml
 
 ## RIL
 vendor/bin/cbd
-vendor/lib/libsecril-client.so
+vendor/lib/libsecril-client.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libfloatingfeature.so
-vendor/lib64/libsecril-client.so
+vendor/lib64/libsecril-client.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
-vendor/lib64/vendor.samsung.hardware.radio@2.0.so
-vendor/lib64/vendor.samsung.hardware.radio@2.1.so
+vendor/lib64/vendor.samsung.hardware.radio@2.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.samsung.hardware.radio@2.1.so;MODULE_SUFFIX=_vendor
 
 ## RIL - From A515FXXU5EUG5
 vendor/bin/hw/rild|2982c9628c9f8f82ff579cdb1273baed47112dfc
@@ -58,9 +58,9 @@ vendor/etc/init/init.vendor.onebinary.rc|b3fab964774039b1f2f6eabf821556919b26369
 vendor/etc/init/init.vendor.rilchip.rc|83d57882dfaefaaa21c5dd636bafd655dfaf0b10
 vendor/etc/init/init.vendor.rilcommon.rc|5a669667301c678eb825abb41531ae1e19897886
 vendor/lib64/libengmode_client.so|f4d4ec4f2c29cf3ce54a74e3c28936ab5c41ab39
-vendor/lib64/libreference-ril.so|88d198da07ea1a67245beb1da4c48da9d627ef32
-vendor/lib64/libril.so|ae21d2979f849435331f7e5c224dd1ce61615eba
-vendor/lib64/librilutils.so|c929ab09b9335b404cb6aab859d5cc20a986d2ca
+vendor/lib64/libreference-ril.so;MODULE_SUFFIX=_vendor|88d198da07ea1a67245beb1da4c48da9d627ef32
+vendor/lib64/libril.so;MODULE_SUFFIX=_vendor|ae21d2979f849435331f7e5c224dd1ce61615eba
+vendor/lib64/librilutils.so;MODULE_SUFFIX=_vendor|c929ab09b9335b404cb6aab859d5cc20a986d2ca
 vendor/lib64/libsec-ril-dsds.so|3c7b8e57793a89ff141b08a1160482fad0940609
 vendor/lib64/libsec-ril.so|1a131c93609c7e48f835cde1fecc4a9a403c697e
 vendor/lib64/libvkmanager_vendor.so|cdfb5546e476058b1eb3695b6c21a181f9bb44bf
