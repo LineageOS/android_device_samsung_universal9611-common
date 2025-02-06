@@ -85,7 +85,7 @@ BOARD_DTB_CFG := $(COMMON_PATH)/configs/kernel/exynos9611.cfg
 ## Camera
 SOONG_CONFIG_NAMESPACES += samsungCameraVars
 SOONG_CONFIG_samsungCameraVars += extra_ids
-ifeq ($(TARGET_DEVICE),f41)
+ifeq (,$(filter f41 m21,$(TARGET_DEVICE)))
 SOONG_CONFIG_samsungCameraVars_extra_ids := 4,20,23,50,52
 else
 SOONG_CONFIG_samsungCameraVars_extra_ids := 4,20,23,50,52,54
